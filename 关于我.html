@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://bing.img.run/rand.php'); /* 自定义背景图片 */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* 使背景图片固定 */
+            color: #333;
+            height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content-container {
+            max-width: 400px;
+            width: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 1; /* 确保内容在背景之上 */
+        }
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .box {
+            background-color: rgba(255, 255, 255, 0.6); /* 半透明白色 */
+            backdrop-filter: blur(10px); /* 磨玻璃效果 */
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+            width: 100%; /* 宽度适应容器 */
+        }
+        .box h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .box p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .box a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .box a:hover {
+            background-color: #45a049;
+        }
+        iframe {
+            margin-bottom: 20px;
+            width: 100%;
+            border: none;
+        }
+        footer {
+            margin-top: 20px;
+            color: #777;
+            text-align: center;
+            width: 100%;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .about-container {
+            background-color: rgba(255, 255, 255, 0.6); /* 半透明白色 */
+            backdrop-filter: blur(10px); /* 磨玻璃效果 */
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px 0;
+            text-align: left;
+            width: 100%; /* 宽度适应容器 */
+        }
+        .about-container h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .about-container p {
+            color: #666;
+        }
+        .details-link {
+            display: inline-block; /* 改为inline-block以便与图片在同一行 */
+            margin-right: 10px; /* 添加右边距以分隔按钮和图片 */
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .details-link:hover {
+            background-color: #45a049;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+            cursor: pointer; /* 表示可点击 */
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1></h1> <!-- 这里添加了网站名称 -->
+        <iframe allowtransparency="true" frameborder="0" height="20" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=1&t=0&v=0&d=1&bd=0&k=000000&f=&ltf=0080ff&htf=ff0080&q=1&e=1&a=1&c=71854&w=250&h=20&align=center"></iframe>
+        <div class="about-container">
+            <h2>关于我</h2>
+            <p><strong>名称:</strong> 二维鼠</p>
+            <p><strong>职业:</strong> 学生</p>
+            <a href="http://ik.juhua66.cn:1000/" class="details-link" target="_blank">最近的讯息</a>
+            <span class="social-icons">
+                <a href="https://space.bilibili.com/1026471704?spm_id_from=333.1007.0.0" target="_blank"><img src="https://juhua66.cn/bili.jpg" alt="GitHub"></a>
+                <a href="https://" target="_blank"><img src="https://" alt="LinkedIn"></a>
+                <a href="mailto:邮箱"><img src="https://" alt="Email"></a>
+            </span>
+        </div>
+        <footer>
+            本站备案号：<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021047307号-2</a>
+        </footer>
+    </div>
+
+    <script>
+        // 移除toggleDetails函数，因为它不再需要
+    </script>
+</body>
+</html>
