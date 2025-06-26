@@ -13,14 +13,25 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            background-image: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #a1c4fd, #c2e9fb);
         }
+
+        @keyframes gradientAnimation {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
         .box {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* 添加透明度以便更好地显示背景 */
             border: 2px solid #ccc;
             padding: 20px;
             margin: 10px;
             text-align: center;
             width: 250px; /* 固定宽度 */
+            backdrop-filter: blur(10px); /* 模糊效果 */
         }
         .box a {
             display: block;
@@ -40,13 +51,14 @@
  <h1>猪排网</h1> <!-- 这里添加了网站名称 -->
 <iframe allowtransparency="true" frameborder="0" width="250" height="20" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=1&t=0&v=0&d=1&bd=0&k=000000&f=&ltf=0080ff&htf=ff0080&q=1&e=1&a=1&c=71854&w=250&h=20&align=center"></iframe>
     <div class="box">
-        <h2>你好。</h2>
-<p>HI</p>
-      <a href="https://juhua66.cn/关于我.html">关于我</a>
-      <a href="http://ik.juhua66.cn:1002/">实用工具</a>
+        <h2>别来无恙</h2>
+<p>海内存知己,天涯若比邻</p>
     </div>
 <p>
   本站备案号：<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021047307号-2</a >
 </p >
 </body>
 </html>
+
+
+
